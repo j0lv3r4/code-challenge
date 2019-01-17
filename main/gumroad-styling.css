@@ -1,0 +1,27 @@
+.gumroad-button {
+    padding: .5rem 1rem;
+    border: 1px solid #ddd;
+    border-top: 1px solid tomato;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.gumroad-button:hover {
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+.gumroad-iframe {
+    position: absolute;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
